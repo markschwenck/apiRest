@@ -2,7 +2,7 @@ POST http://localhost:3000/users
 Content-Type: application/json
 
 {
-    "name": "Admin",
+    "name": "admin",
     "email": "admin@user.com",
     "password": "admin",
     "role": "ADMIN"
@@ -13,3 +13,7 @@ GET http://localhost:3000/users
 
 ###
 GET http://localhost:3000/users/cm9r7jlon0006c3ywnszr4nv3
+
+
+###
+DELETE  http://localhost:3000/users/cm9yrthor0000u4ahxuyrvk0q
