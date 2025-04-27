@@ -11,14 +11,14 @@ Content-Type: application/json
 ###
 
 GET http://localhost:3000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQHVzZXIuY29tIiwicm9sZSI6IkFETUlOIiwic3ViIjoiY21hMDV6cWo3MDAwMGMzZnJvMzQ0OWVrcCIsImlhdCI6MTc0NTc5MjkxMCwiZXhwIjoxNzQ1ODAwMTEwfQ.qw_rEtp9D42aWsfK3EcwQWMG9S6mwtkEQDzVrUHMmI0
+###
+
+GET http://localhost:3000/users/cma05zqj70000c3fro3449ekp
 
 ###
 
-GET http://localhost:3000/users/cm9r7jlon0006c3ywnszr4nv3
-
-###
-
-DELETE http://localhost:3000/users/cm9yrthor0000u4ahxuyrvk0q
+DELETE http://localhost:3000/users/
 
 ###
 
